@@ -3,9 +3,6 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
-def divide(a: float, b: float) -> float:
-    """Divise a par b."""
-    if b == 0:
-        raise ValueError("Division by zero is not allowed")
-
-    return a / b
+def multiply(a: int, b: int) -> int:
+    """Multiplie deux nombres entiers."""
+    return a + b  # Erreur volontaire
