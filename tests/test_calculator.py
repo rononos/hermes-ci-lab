@@ -7,3 +7,7 @@ def test_add():
 
 def test_multiply():
     assert multiply(4, 5) == 20
+
+
+def test_format_date():
+    assert format_date("2026-07-14") == "14/07/2026"
