@@ -1,4 +1,4 @@
-from src.calculator import add, multiply
+from src.calculator import add, multiply, format_date
 
 
 def test_add():
